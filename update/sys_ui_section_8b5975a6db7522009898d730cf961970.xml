@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="8b5975a6db7522009898d730cf961970" sys_domain="global" table="x_70037_gametimeno_game" version="3" view="Mobile">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>game_date</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-09-14 12:56:27</sys_created_on>
+            <sys_id>435975a6db7522009898d730cf961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_70037_gametimeno_game" sys_domain="global" view="1f9e0722db2122009898d730cf9619a4">8b5975a6db7522009898d730cf961970</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-09-14 12:56:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-09-14 12:56:27</sys_created_on>
+            <sys_id>c35975a6db7522009898d730cf961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_70037_gametimeno_game" sys_domain="global" view="1f9e0722db2122009898d730cf9619a4">8b5975a6db7522009898d730cf961970</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-09-14 12:56:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-09-14 12:56:27</sys_created_on>
+            <sys_id>475975a6db7522009898d730cf961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_70037_gametimeno_game" sys_domain="global" view="1f9e0722db2122009898d730cf9619a4">8b5975a6db7522009898d730cf961970</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-09-14 12:56:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_70037_gametimeno_game</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-09-14 12:56:27</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b5975a6db7522009898d730cf961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_70037_gametimeno_game</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GameTimeNow" source="x_70037_gametimeno">dc2b2d62db7522009898d730cf961907</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="GameTimeNow">dc2b2d62db7522009898d730cf961907</sys_scope>
+            <sys_update_name>sys_ui_section_8b5975a6db7522009898d730cf961970</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-09-14 12:56:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Mobile" name="Mobile">1f9e0722db2122009898d730cf9619a4</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

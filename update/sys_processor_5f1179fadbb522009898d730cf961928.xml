@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_processor">
+    <sys_processor action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <description>Insert player into ... &lt;MORE DESCRIPTION&gt;</description>
+        <interactive>false</interactive>
+        <name>InsertGamePlayer</name>
+        <parameters>playing</parameters>
+        <params_endpoint>x_70037_gametimeno_playing</params_endpoint>
+        <path>insert_game_player</path>
+        <path_endpoint>x_70037_gametimeno_insert_game_player</path_endpoint>
+        <require_csrf>false</require_csrf>
+        <roles/>
+        <script><![CDATA[(function process(g_request, g_response, g_processor) {
+	var playerGR = new GlideRecord('x_70037_gametimeno_registered_player');
+	if (playerGR.get('player', gs.getUserID())) {
+		var gamePlayerGR = new GlideRecord('x_70037_gametimeno_game_player');
+		gamePlayerGR.initialize();
+		gamePlayerGR.playing = g_request.getParameter('playing');
+		gamePlayerGR.player = playerGR.getValue('sys_id');
+		gamePlayerGR.insert();
+	}
+	
+	//g_processor.redirect("/sn_bball_SN%20BBall.do");
+	g_processor.redirect("/x_70037_gametimeno_game_list.do");
+})(g_request, g_response, g_processor);]]></script>
+        <sys_class_name>sys_processor</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-09-15 07:16:34</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5f1179fadbb522009898d730cf961928</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>InsertGamePlayer</sys_name>
+        <sys_package display_value="GameTimeNow" source="x_70037_gametimeno">dc2b2d62db7522009898d730cf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GameTimeNow">dc2b2d62db7522009898d730cf961907</sys_scope>
+        <sys_update_name>sys_processor_5f1179fadbb522009898d730cf961928</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-09-15 07:28:10</sys_updated_on>
+        <type>script</type>
+    </sys_processor>
+</record_update>
